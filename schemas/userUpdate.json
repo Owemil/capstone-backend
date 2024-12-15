@@ -25,7 +25,10 @@
       "format": "email"
     },
     "zipCode": {
-      "type": "string",
+      "type": [
+        "string",
+        "number"
+      ],
       "minLength": 5,
       "maxLength": 60
     }
